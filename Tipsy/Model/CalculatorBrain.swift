@@ -13,7 +13,8 @@ struct calculatorBrain{
     var twenty : Bool = false
     var zero : Bool = false
     
-    var percent : Double = 0.1 // providing default value
+    var percent : Double = 1.1 // providing default value
     var numPeople : Double = 2.0 // providing default value
-    var price : Double = 0.0 
+    var price : Double = 0.0
+    var output : Double = 0.0
 }
