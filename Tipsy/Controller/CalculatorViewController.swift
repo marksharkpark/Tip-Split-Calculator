@@ -80,7 +80,6 @@ class CalculatorViewController: UIViewController {
     @IBAction func calculatePressed(_ sender: UIButton) {
         let cost: Double = Double(billTextField.text!) ?? 0.0
         calcBrain.price = cost
-        print(calcBrain.zero)
         if calcBrain.zero == false{
             calcBrain.output = (calcBrain.price / calcBrain.numPeople) * calcBrain.percent
         }
